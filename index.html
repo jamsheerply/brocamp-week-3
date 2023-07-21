@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- <h1 style="display: flex; justify-content: center">enter the numbers</h1>
+  <div style="display: flex; justify-content: center">
+      <input type="text" style="margin: 10px" id="ip_1" />
+    <input type="text" style="margin: 10px"  id="ip_2" />
+  </div>
+  <div style="display: flex; justify-content:space-evenly">
+    <button class="btn">result</button>
+    <h1 id="result"></h1>
+  </div> -->
+ 
+  <!-- <script>
+    let ip_1 = document.getElementById("ip_1");
+    let ip_2 = document.getElementById("ip_2");
+    
+    var btn=document.querySelector(".btn");
+    btn.addEventListener("click",function(){
+      alert("working");
+      console.log(ip_1.value,ip_2.value);
+      document.getElementById("result").innerHTML=parseFloat(ip_1.value)+parseFloat(ip_1.value);
+    })
+  </script> -->
+  <script>
+    // store input numbers
+const num1 = parseInt(prompt('Enter the first number '));
+const num2 = parseInt(prompt('Enter the second number '));
+
+//add two numbers
+const sum = num1 + num2;
+
+// display the sum
+console.log(`The sum of ${num1} and ${num2} is ${sum}`);
+  </script>
+</body>
+
+</html>
